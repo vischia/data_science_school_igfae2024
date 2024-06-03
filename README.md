@@ -64,3 +64,12 @@ jupyter notebook
 and open `lesson_1.ipynb` in the browser window that is opened.
 
 From Colab, open `lesson_1.ipynb`.
+
+If you prefer to run a regular python script, you can convert the notebook using the command:
+
+```
+jupyter nbconvert --to script lesson_1.ipynb
+```
+
+This will create a file `lesson_1.py` that you can pass as a command line argument to the python interpreter.
+    
