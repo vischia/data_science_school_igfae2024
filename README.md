@@ -1,4 +1,4 @@
-# Machine learning tutorial at Data Science School IGFAE 2024
+    # Machine learning tutorial at Data Science School IGFAE 2024
     
 (c) Pietro Vischia (pietro.vischia@cern.ch)
 
@@ -12,13 +12,13 @@ If, for any reason, you cannot run the tutorial, you are welcome to just watch t
 
 #### 1. Check out the code
 ```
-git clone git@github.com:vischia/machine_learning_tutorial.git
-cd machine_learning_tutorial/
+git clone git@github.com:vischia/data_science_school_igfae2024.git
+cd data_science_school_igfae2024/
 ```
 or
 ```
-git clone https://github.com/vischia/machine_learning_tutorial.git
-cd machine_learning_tutorial/
+git clone https://github.com/vischia/data_science_school_igfae2024.git
+cd data_science_school_igfae2024/
 ```
 
 #### 2. Create a python environment and install requirements (follow one of the options 2.1, 2.2, or 2.3)
@@ -48,7 +48,7 @@ To deactivate the environment, you should run `conda deactivate` from the comman
 
 ##### 2.3 Using Google Colab (google account needed)
 
-Go to [Google Colab](https://colab.research.google.com/), select `GitHub` as a source, and fill in the path to this repository (`https://github.com/vischia/machine_learning_tutorial`). Possibly Google will ask for access to your GitHub account, although installing from a public third party repository should not require that, in principle.
+Go to [Google Colab](https://colab.research.google.com/), select `GitHub` as a source, and fill in the path to this repository (`https://github.com/vischia/data_science_school_igfae2024`). Possibly Google will ask for access to your GitHub account, although installing from a public third party repository should not require that, in principle.
 
 When the colab instance is active, open the jupyter notebook `train_hyp.ipynb` and run the cell labelled "*If you are using COLAB*"
 
@@ -72,4 +72,4 @@ jupyter nbconvert --to script lesson_1.ipynb
 ```
 
 This will create a file `lesson_1.py` that you can pass as a command line argument to the python interpreter.
-    
+You may have to add a few `plt.show()` or `plt.savefig()` to the code here and there, to visualize/save outputs, though.
