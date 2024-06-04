@@ -11,3 +11,5 @@ seaborn==0.13.2
 shap==0.45.1
 tensorflow==2.16.1
 jupyter==1.0.0
+uproot
+torch

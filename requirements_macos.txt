@@ -12,3 +12,5 @@ shap==0.45.1
 tensorflow-macos==2.16.1
 tensorflow-metal==1.1.0
 jupyter==1.0.0
+uproot
+torch
